@@ -46,10 +46,10 @@ design:
     offcanvas: false
 
 has:
-  administrators: 
+  administrators: true
   authors: false
-  researchers: 
-  teachers: 
+  researchers: true
+  teachers: false
 
 position: 2
 weight: 2
@@ -59,7 +59,10 @@ translationKey: communication-website-page-b003d57b-e9b6-44de-93cb-8d05fe2b2dcd
 
 
 children:
+  - "administrators/_index.html"
   - "authors/_index.html"
+  - "researchers/_index.html"
+  - "teachers/_index.html"
 meta_description: >-
   
 
@@ -71,6 +74,19 @@ header_text: >-
 header_cta:
 
 section_taxonomies:
+  - name: >-
+      Catégories
+    slug: ""
+    path: ""
+    categories:
+      - permalink: "/personnes/categories/mesures-physiques/"
+        path: "/persons_categories/mesures-physiques"
+        slug: "mesures-physiques"
+        file: "content/fr/persons_categories/mesures-physiques/_index.html"
+        name: >-
+          Mesures Physiques
+        count: 1
+
 
 contents_reading_time:
   seconds: 0
