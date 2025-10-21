@@ -2,5 +2,5 @@ theme: bordeaux-program-theme
 _merge: deep
 params:
   logo:
-    header: ''
-    footer: ''
+    header: /assets/images/logo.svg
+    footer: /assets/images/logo-white.svg
