@@ -55,7 +55,7 @@ items:
     children: []
     path: "/pages/la-formation/candidater"
     file: content/fr/pages/la-formation/candidater/_index.html
-  - title: Le parcours Management de la Production
+  - title: Management de la Production
     target: "/la-formation/le-parcours-management-de-la-production/"
     kind: page
     new_tab: false
@@ -104,6 +104,20 @@ items:
   kind: page
   new_tab: false
   children:
+  - title: QLIO et les entreprises
+    target: "/entreprises/qlio-et-les-entreprises/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/qlio-et-les-entreprises"
+    file: content/fr/pages/entreprises/qlio-et-les-entreprises/_index.html
+  - title: Taxe d’apprentissage
+    target: "/entreprises/taxe-dapprentissage/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/entreprises/taxe-dapprentissage"
+    file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
   - title: Offres d'emploi
     target: "/entreprises/offres-d-emploi/"
     kind: page
