@@ -5,7 +5,35 @@ items:
   target: "/le-departement/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Présentation
+    target: "/le-departement/presentation/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/presentation"
+    file: content/fr/pages/le-departement/presentation/_index.html
+  - title: Moyens et encadrement
+    target: "/le-departement/moyens-et-encadrement/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/moyens-et-encadrement"
+    file: content/fr/pages/le-departement/moyens-et-encadrement/_index.html
+  - title: Organisation des études
+    target: "/le-departement/organisation-des-etudes/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/organisation-des-etudes"
+    file: content/fr/pages/le-departement/organisation-des-etudes/_index.html
+  - title: Le Fablab
+    target: "/le-departement/le-fablab/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/le-fablab"
+    file: content/fr/pages/le-departement/le-fablab/_index.html
   path: "/pages/le-departement"
   file: content/fr/pages/le-departement/_index.html
 - title: La formation
@@ -13,20 +41,62 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Formations
-    target: "/la-formation/formations/"
+  - title: Le BUT QLIO
+    target: "/la-formation/formations/qlio/"
+    kind: program
+    new_tab: false
+    children: []
+    path: "/programs/qlio"
+    file: content/fr/programs/qlio/_index.html
+  - title: Candidater
+    target: "/la-formation/candidater/"
     kind: page
     new_tab: false
     children: []
-    path: "/programs"
-    file: content/fr/programs/_index.html
+    path: "/pages/la-formation/candidater"
+    file: content/fr/pages/la-formation/candidater/_index.html
+  - title: Le parcours Management de la Production
+    target: "/la-formation/le-parcours-management-de-la-production/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/la-formation/le-parcours-management-de-la-production"
+    file: content/fr/pages/la-formation/le-parcours-management-de-la-production/_index.html
+  - title: Stages et alternance
+    target: "/la-formation/stages-et-alternance/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/la-formation/stages-et-alternance"
+    file: content/fr/pages/la-formation/stages-et-alternance/_index.html
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
   target: "/vie-etudiante/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Le Campus d'Agen
+    target: "/vie-etudiante/le-campus-d-agen/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/vie-etudiante/le-campus-d-agen"
+    file: content/fr/pages/vie-etudiante/le-campus-d-agen/_index.html
+  - title: Activités extra-scolaires
+    target: "/vie-etudiante/activites-extra-scolaires/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/vie-etudiante/activites-extra-scolaires"
+    file: content/fr/pages/vie-etudiante/activites-extra-scolaires/_index.html
+  - title: Témoignages d'étudiants
+    target: "/vie-etudiante/temoignages-detudiants/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/vie-etudiante/temoignages-detudiants"
+    file: content/fr/pages/vie-etudiante/temoignages-detudiants/_index.html
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprises
