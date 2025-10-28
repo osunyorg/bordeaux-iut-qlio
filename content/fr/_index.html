@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2025-10-20T16:24:53+02:00
-lastmod: 2025-10-28T14:42:14+01:00
+lastmod: 2025-10-28T15:05:47+01:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2025-10-20T16:24:53+02:00
-    updated_at: 2025-10-28T14:42:14+01:00
+    updated_at: 2025-10-28T15:05:47+01:00
     published_at: 2025-10-20T16:24:53+02:00
 search:
   id: "c64027a6-d44a-42d4-9faf-1fbbc72955cb"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Le tremplin vers la vie professionnelle !</p>
   body: >-
-    <p>  <br>Bienvenue sur le site internet du BUT QLIO, site d’Agen, où nous proposons le parcours " Management de Production"  qui forme des cadres intermédiaires capables de  manager, coordonner et animer des équipes logistique et qualité. <br> A l’issue du  BUT QLIO, les étudiants peuvent travailler dans diverses industries  : aéronautique, agroalimentaire, pharmaceutique, automobile, mécanique, chimie, etc… ou dans les services : transports, santé, humanitaire, grande distribution, administrations, etc…  L’alternance est possible dès la 2ème année.</p>  <p> Candidats  <br>Vous aimez travailler en équipe et avez un projet tourné vers le management ? <br> Vous ambitionnez de participer à des projets permettant d’améliorer les performances des entreprises  ? <br> Le BUT QLIO est fait pour vous !</p>  <p>En savoir plus sur la formation <br>/la-formation/</p>  <p> Entreprises  <br>Avec la taxe d’apprentissage , construisons ensemble la formation de vos futurs collaborateurs ! <br> Vous souhaitez déposer une offre d’emploi ?</p>  <p>En savoir plus sur QLIO et les entreprises <br>/entreprises/</p>  <p> Le BUT QLIO en vidéo !  <br>  </p>  <p>https://www.youtube.com/watch?v=3bN8OAFrvFs <br>Visite virtuelle du BUT QLIO à Agen</p>  <p>  </p>  <p>https://www.youtube.com/watch?v=cv9F7p94QfU <br>Le BUT Qlio présenté par ses étudiants </p>
+    <p>  <br>Bienvenue sur le site internet du BUT QLIO, site d’Agen, où nous proposons le parcours " Management de Production"  qui forme des cadres intermédiaires capables de  manager, coordonner et animer des équipes logistique et qualité. <br> A l’issue du  BUT QLIO, les étudiants peuvent travailler dans diverses industries  : aéronautique, agroalimentaire, pharmaceutique, automobile, mécanique, chimie, etc… ou dans les services : transports, santé, humanitaire, grande distribution, administrations, etc…  L’alternance est possible dès la 2ème année.</p>  <p> Actualités  <br> Le BUT QLIO en vidéo !  <br>  </p>  <p>https://www.youtube.com/watch?v=3bN8OAFrvFs <br>Visite virtuelle du BUT QLIO à Agen</p>  <p>  </p>  <p>https://www.youtube.com/watch?v=cv9F7p94QfU <br>Le BUT Qlio présenté par ses étudiants </p>
 
 breadcrumbs:
   - title: >-
@@ -39,7 +39,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 
@@ -69,37 +69,10 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 47
+  seconds: 29
   text: >-
-    1 minute
+    moins d'une minute
 contents:
-  - kind: block
-    template: chapter
-    title: >-
-      
-    slug: >-
-      
-    ranks:
-      base: 2
-    top:
-      active: false
-    data:
-      layout: no_background
-      text: >-
-        
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
   - kind: block
     template: chapter
     title: >-
@@ -128,50 +101,53 @@ contents:
 
 
   - kind: block
-    template: call_to_action
+    template: pages
     title: >-
-      Candidats
+      
     slug: >-
-      candidats
+      
     ranks:
       base: 2
-      self: 2
+      children: 2
     top:
-      active: true
-      title: 
-        value: >-
-          Candidats
-        heading: 2
-      description: >-
-        <p>Vous aimez travailler en équipe et avez un projet tourné vers le management ? </p><p>Vous ambitionnez de participer à des projets permettant d’améliorer les performances des entreprises  ? </p><p><b>Le BUT QLIO est fait pour vous !</b></p>
+      active: false
     data:
-      layout: accent_background
-      text: >-
-        <p>Vous aimez travailler en équipe et avez un projet tourné vers le management ? </p><p>Vous ambitionnez de participer à des projets permettant d’améliorer les performances des entreprises  ? </p><p><b>Le BUT QLIO est fait pour vous !</b></p>
+      options:
+        image: true
+        categories: false
+        main_summary: true
+        summary: true
 
+      layout: grid
+      pages:
+        - permalink: "/le-departement/"
+          path: "/pages/le-departement"
+          slug: "le-departement"
+          file: "content/fr/pages/le-departement/_index.html"
+          name: >-
+            Le département
+        - permalink: "/la-formation/"
+          path: "/pages/la-formation"
+          slug: "la-formation"
+          file: "content/fr/pages/la-formation/_index.html"
+          name: >-
+            La formation
+        - permalink: "/entreprises/"
+          path: "/pages/entreprises"
+          slug: "entreprises"
+          file: "content/fr/pages/entreprises/_index.html"
+          name: >-
+            Entreprises
 
-      alt: >-
-        
-
-      credit: >-
-        
-
-      buttons:
-        - title: >-
-            En savoir plus sur la formation
-
-          url: >-
-            /la-formation/
-
-          target_blank: false
+      quantity: 3
 
 
   - kind: block
-    template: call_to_action
+    template: title
     title: >-
-      Entreprises
+      Actualités
     slug: >-
-      entreprises
+      actualites
     ranks:
       base: 2
       self: 2
@@ -179,30 +155,10 @@ contents:
       active: true
       title: 
         value: >-
-          Entreprises
+          Actualités
         heading: 2
-      description: >-
-        <p>Avec la taxe d’apprentissage , construisons ensemble la formation de vos futurs collaborateurs ! </p><p>Vous souhaitez déposer une offre d’emploi ?</p>
     data:
-      layout: accent_background
-      text: >-
-        <p>Avec la taxe d’apprentissage , construisons ensemble la formation de vos futurs collaborateurs ! </p><p>Vous souhaitez déposer une offre d’emploi ?</p>
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-      buttons:
-        - title: >-
-            En savoir plus sur QLIO et les entreprises
-
-          url: >-
-            /entreprises/
-
-          target_blank: false
+      layout: classic
 
 
   - kind: block
@@ -212,8 +168,8 @@ contents:
     slug: >-
       
     ranks:
-      base: 2
-      children: 2
+      base: 3
+      children: 3
     top:
       active: false
     data:
