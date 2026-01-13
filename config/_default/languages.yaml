@@ -9,6 +9,22 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        instagram:
+          label: >-
+            qlioagen
+          value: >-
+            https://instagram.com/qlioagen
+        linkedin:
+          label: >-
+            iut-département-qlio
+          value: >-
+            https://www.linkedin.com/company/iut-d%C3%A9partement-qlio/
+        youtube:
+          label: >-
+            iutqlioagen2785
+          value: >-
+            https://www.youtube.com/@iutqlioagen2785
 
   taxonomies:
     administrator: administrators

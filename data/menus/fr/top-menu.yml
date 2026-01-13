@@ -1,7 +1,7 @@
 ---
-title: 'Menu Têtière '
+title: Top Menu
 items:
-- title: INTRANET
+- title: Intranet
   target: https://intranet.iut.u-bordeaux.fr/
   kind: url
   new_tab: true
