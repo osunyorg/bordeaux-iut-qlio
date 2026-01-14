@@ -41,6 +41,13 @@ items:
     children: []
     path: "/posts"
     file: content/fr/posts/_index.html
+  - title: Contactez-nous
+    target: "/le-departement/contactez-nous/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/le-departement/contactez-nous"
+    file: content/fr/pages/le-departement/contactez-nous/_index.html
   path: "/pages/le-departement"
   file: content/fr/pages/le-departement/_index.html
 - title: La formation
