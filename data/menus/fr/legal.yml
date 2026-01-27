@@ -16,17 +16,17 @@ items:
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
 - title: Accessibilité
-  target: "/accessibilite/"
+  target: "/mentions-legales/accessibilite-1/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/accessibilite"
-  file: content/fr/pages/accessibilite/_index.html
+  path: "/pages/mentions-legales/accessibilite-1"
+  file: content/fr/pages/mentions-legales/accessibilite-1/_index.html
 - title: Politique de confidentialité
-  target: "/politique-de-confidentialite/"
+  target: "/mentions-legales/politique-de-confidentialite-1/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/politique-de-confidentialite"
-  file: content/fr/pages/politique-de-confidentialite/_index.html
+  path: "/pages/mentions-legales/politique-de-confidentialite-1"
+  file: content/fr/pages/mentions-legales/politique-de-confidentialite-1/_index.html
 
