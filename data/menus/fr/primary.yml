@@ -83,12 +83,12 @@ items:
     children: []
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
-  - title: Focus métiers
+  - title: RESPONSABLE ORGANISATION
     target: "/focus-metiers/"
     kind: page
     new_tab: false
     children:
-    - title: Focus métiers
+    - title: Animateur Qualité
       target: "/la-formation/animateur-qualite/"
       kind: page
       new_tab: false
