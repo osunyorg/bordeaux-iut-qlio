@@ -83,7 +83,7 @@ items:
     children: []
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
-  - title: RESPONSABLE ORGANISATION
+  - title: Métiers possibles
     target: "/focus-metiers/"
     kind: page
     new_tab: false
@@ -95,6 +95,20 @@ items:
       children: []
       path: "/pages/la-formation/animateur-qualite"
       file: content/fr/pages/la-formation/animateur-qualite/_index.html
+    - title: Responsable Organisation
+      target: "/focus-metiers/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/focus-metiers"
+      file: content/fr/pages/focus-metiers/_index.html
+    - title: Responsable planification
+      target: "/responsable-planification/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/responsable-planification"
+      file: content/fr/pages/responsable-planification/_index.html
     path: "/pages/focus-metiers"
     file: content/fr/pages/focus-metiers/_index.html
   path: "/pages/la-formation"
