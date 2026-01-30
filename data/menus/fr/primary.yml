@@ -83,6 +83,13 @@ items:
     children: []
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
+  - title: Focus métiers
+    target: "/focus-metiers/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/focus-metiers"
+    file: content/fr/pages/focus-metiers/_index.html
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
