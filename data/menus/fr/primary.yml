@@ -125,13 +125,13 @@ items:
     children: []
     path: "/pages/vie-etudiante/le-campus-d-agen"
     file: content/fr/pages/vie-etudiante/le-campus-d-agen/_index.html
-  - title: Activités extra-scolaires
-    target: "/vie-etudiante/activites-extra-scolaires/"
+  - title: Activités extra-universitaires
+    target: "/vie-etudiante/activites-extra-universitaires/"
     kind: page
     new_tab: false
     children: []
-    path: "/pages/vie-etudiante/activites-extra-scolaires"
-    file: content/fr/pages/vie-etudiante/activites-extra-scolaires/_index.html
+    path: "/pages/vie-etudiante/activites-extra-universitaires"
+    file: content/fr/pages/vie-etudiante/activites-extra-universitaires/_index.html
   - title: Témoignages d'étudiants
     target: "/vie-etudiante/temoignages-detudiants/"
     kind: page
