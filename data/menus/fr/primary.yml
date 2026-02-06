@@ -84,33 +84,33 @@ items:
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
   - title: Métiers possibles
-    target: ''
-    kind: blank
+    target: "/la-formation/metiers-possibles/"
+    kind: page
     new_tab: false
     children:
     - title: Animateur qualité
-      target: "/la-formation/animateur-qualite/"
+      target: "/la-formation/metiers-possibles/animateur-qualite/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/la-formation/animateur-qualite"
-      file: content/fr/pages/la-formation/animateur-qualite/_index.html
+      path: "/pages/la-formation/metiers-possibles/animateur-qualite"
+      file: content/fr/pages/la-formation/metiers-possibles/animateur-qualite/_index.html
     - title: Responsable organisation
-      target: "/la-formation/responsable-organisation/"
+      target: "/la-formation/metiers-possibles/responsable-organisation/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/la-formation/responsable-organisation"
-      file: content/fr/pages/la-formation/responsable-organisation/_index.html
+      path: "/pages/la-formation/metiers-possibles/responsable-organisation"
+      file: content/fr/pages/la-formation/metiers-possibles/responsable-organisation/_index.html
     - title: Responsable planification
-      target: "/la-formation/responsable-planification/"
+      target: "/la-formation/metiers-possibles/responsable-planification/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/la-formation/responsable-planification"
-      file: content/fr/pages/la-formation/responsable-planification/_index.html
-    path: "/pages/la-formation/responsable-organisation"
-    file: content/fr/pages/la-formation/responsable-organisation/_index.html
+      path: "/pages/la-formation/metiers-possibles/responsable-planification"
+      file: content/fr/pages/la-formation/metiers-possibles/responsable-planification/_index.html
+    path: "/pages/la-formation/metiers-possibles"
+    file: content/fr/pages/la-formation/metiers-possibles/_index.html
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
