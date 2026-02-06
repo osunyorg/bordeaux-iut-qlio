@@ -89,28 +89,28 @@ items:
     new_tab: false
     children:
     - title: Animateur qualité
-      target: "/animateur-qualite/"
+      target: "/la-formation/animateur-qualite/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/animateur-qualite"
-      file: content/fr/pages/animateur-qualite/_index.html
+      path: "/pages/la-formation/animateur-qualite"
+      file: content/fr/pages/la-formation/animateur-qualite/_index.html
     - title: Responsable organisation
-      target: "/responsable-organisation/"
+      target: "/la-formation/responsable-organisation/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/responsable-organisation"
-      file: content/fr/pages/responsable-organisation/_index.html
+      path: "/pages/la-formation/responsable-organisation"
+      file: content/fr/pages/la-formation/responsable-organisation/_index.html
     - title: Responsable planification
-      target: "/responsable-planification/"
+      target: "/la-formation/responsable-planification/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/responsable-planification"
-      file: content/fr/pages/responsable-planification/_index.html
-    path: "/pages/responsable-organisation"
-    file: content/fr/pages/responsable-organisation/_index.html
+      path: "/pages/la-formation/responsable-planification"
+      file: content/fr/pages/la-formation/responsable-planification/_index.html
+    path: "/pages/la-formation/responsable-organisation"
+    file: content/fr/pages/la-formation/responsable-organisation/_index.html
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
