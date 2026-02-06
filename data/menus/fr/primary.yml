@@ -69,7 +69,7 @@ items:
     children: []
     path: "/pages/la-formation/candidater"
     file: content/fr/pages/la-formation/candidater/_index.html
-  - title: Management de la Production
+  - title: Management de la production
     target: "/la-formation/le-parcours-management-de-la-production/"
     kind: page
     new_tab: false
