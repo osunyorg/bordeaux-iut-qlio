@@ -84,24 +84,24 @@ items:
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
   - title: Métiers possibles
-    target: "/focus-metiers/"
-    kind: page
+    target: ''
+    kind: blank
     new_tab: false
     children:
-    - title: Animateur Qualité
-      target: "/la-formation/animateur-qualite/"
+    - title: Animateur qualité
+      target: "/animateur-qualite/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/la-formation/animateur-qualite"
-      file: content/fr/pages/la-formation/animateur-qualite/_index.html
-    - title: Responsable Organisation
-      target: "/focus-metiers/"
+      path: "/pages/animateur-qualite"
+      file: content/fr/pages/animateur-qualite/_index.html
+    - title: Responsable organisation
+      target: "/responsable-organisation/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/focus-metiers"
-      file: content/fr/pages/focus-metiers/_index.html
+      path: "/pages/responsable-organisation"
+      file: content/fr/pages/responsable-organisation/_index.html
     - title: Responsable planification
       target: "/responsable-planification/"
       kind: page
@@ -109,8 +109,8 @@ items:
       children: []
       path: "/pages/responsable-planification"
       file: content/fr/pages/responsable-planification/_index.html
-    path: "/pages/focus-metiers"
-    file: content/fr/pages/focus-metiers/_index.html
+    path: "/pages/responsable-organisation"
+    file: content/fr/pages/responsable-organisation/_index.html
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
