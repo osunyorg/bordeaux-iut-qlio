@@ -118,7 +118,7 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Le Campus d'Agen
+  - title: Le campus d'Agen
     target: "/vie-etudiante/le-campus-d-agen/"
     kind: page
     new_tab: false
