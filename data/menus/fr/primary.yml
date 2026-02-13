@@ -2,150 +2,209 @@
 title: Menu principal
 items:
 - title: Le département
+  slug: le-departement
   target: "/le-departement/"
   kind: page
   new_tab: false
   children:
   - title: Le BUT QLIO à Agen
+    slug: le-but-qlio-a-agen
     target: "/le-departement/le-but-qlio-a-agen/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/le-but-qlio-a-agen"
     file: content/fr/pages/le-departement/le-but-qlio-a-agen/_index.html
   - title: Moyens et encadrement
+    slug: moyens-et-encadrement
     target: "/le-departement/moyens-et-encadrement/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/moyens-et-encadrement"
     file: content/fr/pages/le-departement/moyens-et-encadrement/_index.html
   - title: Organisation des études
+    slug: organisation-des-etudes
     target: "/le-departement/organisation-des-etudes/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/organisation-des-etudes"
     file: content/fr/pages/le-departement/organisation-des-etudes/_index.html
   - title: Le Fablab
+    slug: le-fablab
     target: "/le-departement/le-fablab/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/le-fablab"
     file: content/fr/pages/le-departement/le-fablab/_index.html
   - title: Actualités
+    slug: actualites
     target: "/actualites/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts"
     file: content/fr/posts/_index.html
   - title: Contactez-nous
+    slug: contactez-nous
     target: "/le-departement/contactez-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/le-departement/contactez-nous"
     file: content/fr/pages/le-departement/contactez-nous/_index.html
+  descendants_targets:
+  - "/actualites/"
+  - "/le-departement/contactez-nous/"
+  - "/le-departement/le-but-qlio-a-agen/"
+  - "/le-departement/le-fablab/"
+  - "/le-departement/moyens-et-encadrement/"
+  - "/le-departement/organisation-des-etudes/"
   path: "/pages/le-departement"
   file: content/fr/pages/le-departement/_index.html
 - title: La formation
+  slug: la-formation
   target: "/la-formation/"
   kind: page
   new_tab: false
   children:
   - title: Le BUT QLIO
+    slug: le-but-qlio
     target: "/la-formation/formations/qlio/"
     kind: program
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/programs/qlio"
     file: content/fr/programs/qlio/_index.html
   - title: Candidater
+    slug: candidater
     target: "/la-formation/candidater/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-formation/candidater"
     file: content/fr/pages/la-formation/candidater/_index.html
   - title: Management de la production
+    slug: management-de-la-production
     target: "/la-formation/le-parcours-management-de-la-production/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-formation/le-parcours-management-de-la-production"
     file: content/fr/pages/la-formation/le-parcours-management-de-la-production/_index.html
   - title: Stages et alternance
+    slug: stages-et-alternance
     target: "/la-formation/stages-et-alternance/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-formation/stages-et-alternance"
     file: content/fr/pages/la-formation/stages-et-alternance/_index.html
   - title: Métiers possibles
+    slug: metiers-possibles
     target: "/la-formation/metiers-possibles/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/la-formation/metiers-possibles"
     file: content/fr/pages/la-formation/metiers-possibles/_index.html
+  descendants_targets:
+  - "/la-formation/candidater/"
+  - "/la-formation/formations/qlio/"
+  - "/la-formation/le-parcours-management-de-la-production/"
+  - "/la-formation/metiers-possibles/"
+  - "/la-formation/stages-et-alternance/"
   path: "/pages/la-formation"
   file: content/fr/pages/la-formation/_index.html
 - title: Vie étudiante
+  slug: vie-etudiante
   target: "/vie-etudiante/"
   kind: page
   new_tab: false
   children:
   - title: Le campus d'Agen
+    slug: le-campus-d-agen
     target: "/vie-etudiante/le-campus-d-agen/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/le-campus-d-agen"
     file: content/fr/pages/vie-etudiante/le-campus-d-agen/_index.html
   - title: Activités extra-universitaires
+    slug: activites-extra-universitaires
     target: "/vie-etudiante/activites-extra-universitaires/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/activites-extra-universitaires"
     file: content/fr/pages/vie-etudiante/activites-extra-universitaires/_index.html
   - title: Témoignages d'étudiants
+    slug: temoignages-d-etudiants
     target: "/vie-etudiante/temoignages-detudiants/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/vie-etudiante/temoignages-detudiants"
     file: content/fr/pages/vie-etudiante/temoignages-detudiants/_index.html
+  descendants_targets:
+  - "/vie-etudiante/activites-extra-universitaires/"
+  - "/vie-etudiante/le-campus-d-agen/"
+  - "/vie-etudiante/temoignages-detudiants/"
   path: "/pages/vie-etudiante"
   file: content/fr/pages/vie-etudiante/_index.html
 - title: Entreprises
+  slug: entreprises
   target: "/entreprises/"
   kind: page
   new_tab: false
   children:
   - title: QLIO et les entreprises
+    slug: qlio-et-les-entreprises
     target: "/entreprises/qlio-et-les-entreprises/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/qlio-et-les-entreprises"
     file: content/fr/pages/entreprises/qlio-et-les-entreprises/_index.html
   - title: Taxe d’apprentissage
+    slug: taxe-d-apprentissage
     target: "/entreprises/taxe-dapprentissage/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/entreprises/taxe-dapprentissage"
     file: content/fr/pages/entreprises/taxe-dapprentissage/_index.html
   - title: Offres d'emploi
+    slug: offres-d-emploi
     target: "/entreprises/offres-d-emploi/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/jobs"
     file: content/fr/jobs/_index.html
+  descendants_targets:
+  - "/entreprises/offres-d-emploi/"
+  - "/entreprises/qlio-et-les-entreprises/"
+  - "/entreprises/taxe-dapprentissage/"
   path: "/pages/entreprises"
   file: content/fr/pages/entreprises/_index.html
 
