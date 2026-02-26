@@ -9,13 +9,13 @@ items:
   children:
   - title: Pourquoi venir à Agen
     slug: pourquoi-venir-a-agen
-    target: "/le-departement/le-but-qlio-a-agen/"
+    target: "/le-departement/pourquoi-venir-a-agen/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/le-departement/le-but-qlio-a-agen"
-    file: content/fr/pages/le-departement/le-but-qlio-a-agen/_index.html
+    path: "/pages/le-departement/pourquoi-venir-a-agen"
+    file: content/fr/pages/le-departement/pourquoi-venir-a-agen/_index.html
   - title: Moyens et encadrement
     slug: moyens-et-encadrement
     target: "/le-departement/moyens-et-encadrement/"
@@ -64,10 +64,10 @@ items:
   descendants_targets:
   - "/le-departement/actualites/"
   - "/le-departement/contactez-nous/"
-  - "/le-departement/le-but-qlio-a-agen/"
   - "/le-departement/le-fablab/"
   - "/le-departement/moyens-et-encadrement/"
   - "/le-departement/organisation-des-etudes/"
+  - "/le-departement/pourquoi-venir-a-agen/"
   path: "/pages/le-departement"
   file: content/fr/pages/le-departement/_index.html
 - title: La formation
@@ -174,15 +174,15 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: QLIO et les entreprises
-    slug: qlio-et-les-entreprises
-    target: "/entreprises/qlio-et-les-entreprises/"
+  - title: Vos futurs collaborateurs
+    slug: vos-futurs-collaborateurs
+    target: "/entreprises/vos-futurs-collaborateurs/"
     kind: page
     new_tab: false
     children: []
     descendants_targets: []
-    path: "/pages/entreprises/qlio-et-les-entreprises"
-    file: content/fr/pages/entreprises/qlio-et-les-entreprises/_index.html
+    path: "/pages/entreprises/vos-futurs-collaborateurs"
+    file: content/fr/pages/entreprises/vos-futurs-collaborateurs/_index.html
   - title: Taxe d’apprentissage
     slug: taxe-d-apprentissage
     target: "/entreprises/taxe-dapprentissage/"
@@ -203,8 +203,8 @@ items:
     file: content/fr/jobs/_index.html
   descendants_targets:
   - "/entreprises/offres-d-emploi/"
-  - "/entreprises/qlio-et-les-entreprises/"
   - "/entreprises/taxe-dapprentissage/"
+  - "/entreprises/vos-futurs-collaborateurs/"
   path: "/pages/entreprises"
   file: content/fr/pages/entreprises/_index.html
 
