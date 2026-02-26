@@ -7,8 +7,8 @@ items:
   kind: page
   new_tab: false
   children:
-  - title: Le BUT QLIO à Agen
-    slug: le-but-qlio-a-agen
+  - title: Pourquoi venir à Agen
+    slug: pourquoi-venir-a-agen
     target: "/le-departement/le-but-qlio-a-agen/"
     kind: page
     new_tab: false
