@@ -1,0 +1,55 @@
+name: bordeaux
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+          cache: 'yarn'
+
+      - name: Install JS dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Setup Hugo
+        uses: noesya/actions-hugo@release
+        with:
+          hugo-version: '0.154.5'
+          extended: true
+
+      - name: Compilation du site
+        run: yarn osuny build
+
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.BSSH_PRIVATE_KEY }}
+          known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
+
+      - name: Adding Known Hosts
+        run: ssh-keyscan -p ${{ secrets.BSSH_PORT }} -H ${{ secrets.BSSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync through Bastion
+        run: rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -J ${{ secrets.BSSH_USER }}@${{ secrets.BSSH_HOST }}:${{ secrets.BSSH_PORT }} -p ${{ secrets.SSH_PORT }}" ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.SSH_WORKDIR }}/
+
+      - name: Notification Slack en cas d'échecs
+        uses: rtCamp/action-slack-notify@v2
+        if: failure()
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_TITLE: 'Problem on repo ${{ github.event.repository.name }}'
+          SLACK_COLOR: '#FF0000'
