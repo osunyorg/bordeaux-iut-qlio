@@ -19,8 +19,8 @@ items:
   descendants_targets: []
   path: "/pages/mentions-legales"
   file: content/fr/pages/mentions-legales/_index.html
-- title: Accessibilité
-  slug: accessibilite
+- title: 'Accessibilité : non conforme'
+  slug: accessibilite-non-conforme
   target: "/mentions-legales/accessibilite-1/"
   kind: page
   new_tab: false
