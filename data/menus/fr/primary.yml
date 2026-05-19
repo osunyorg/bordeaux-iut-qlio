@@ -207,4 +207,13 @@ items:
   - "/entreprises/vos-futurs-collaborateurs/"
   path: "/pages/entreprises"
   file: content/fr/pages/entreprises/_index.html
+- title: Enseigner
+  slug: enseigner
+  target: "/enseigner-en-but-qlio/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/enseigner-en-but-qlio"
+  file: content/fr/pages/enseigner-en-but-qlio/_index.html
 
