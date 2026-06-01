@@ -7,6 +7,10 @@ osuny:
   website:
     id: e28bb4e0-b43b-4989-bddf-ea6c4c8ed4d8
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "qlio.iut.u-bordeaux.fr"
 
 ## LANGUAGE
 defaultContentLanguage: fr
